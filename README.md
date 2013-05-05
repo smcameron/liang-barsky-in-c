@@ -14,6 +14,7 @@ clip_line()
  * modifies parameters in place to clip the line,
  * returns 0 if line is totally outside clip window
  * returns 1 if line is not totally outside clip window
+
     int clip_line(struct liang_barsky_clip_window *c,
      			int *x1, int *y1, int *x2,  int *y2);
 
