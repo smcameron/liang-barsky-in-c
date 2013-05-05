@@ -42,6 +42,6 @@ Use it like this:
     y1 = some_random_number();
     x2 = some_random_number();
     y2 = some_random_number();
-    if (clip_line(&my_clip_window, &x1, &y1, &x2, &y2))
+    if (!clip_line(&my_clip_window, &x1, &y1, &x2, &y2))
         draw_line(x1, y1, x2, y2);
 
