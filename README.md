@@ -6,9 +6,9 @@ Just a simple Liang-Barsky line clipping algorithm implemented in C
 Adapted from Hin Jang's C++ implementation found here:
 http://hinjang.com/articles/04.html#eight
 
-struct liang_barsky_clip_window {
-	float x1, y1, x2, y2;
-};
+    struct liang_barsky_clip_window {
+    	float x1, y1, x2, y2;
+    };
 
 clip_line()
  * modifies parameters in place to clip the line,
